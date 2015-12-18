@@ -21,7 +21,6 @@ namespace Day02
             {
                 stopWatch.Start();
                 Method01();
-                //stopWatch.Stop();
                 totalElapsedMs += stopWatch.ElapsedMilliseconds;
                 stopWatch.Reset();
             }
